@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilia Degtev</title>
+
+    <style>
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #222;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            margin-top: 35px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .links a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .photo {
+            width: 180px;
+            border-radius: 8px;
+        }
+
+        .header {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img src="photo.jpg" alt="Photo" class="photo">
+
+        <div>
+
+            <h1>Ilia Degtev</h1>
+
+            <p class="subtitle">
+                PhD in Physics · Sapienza University of Rome
+            </p>
+
+            <div class="links">
+                <a href="https://github.com/ilyadegtev">GitHub</a>
+                <a href="https://it.linkedin.com/in/ilya-degtev-585a05272">LinkedIn</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2>About me</h2>
+
+    <p>
+        I am a condensed matter physicist working at the intersection of
+        experiment and theory. My research focuses on quantum materials,
+        silver fluorides, scanning tunnelling microscopy, X-ray spectroscopy,
+        and electronic structure calculations.
+    </p>
+
+    <h2>Research interests</h2>
+
+    <ul>
+        <li>Quantum materials and strongly correlated systems</li>
+        <li>Silver fluorides and cuprate analogues</li>
+        <li>Scanning tunnelling microscopy (STM)</li>
+        <li>X-ray absorption and RIXS spectroscopy</li>
+        <li>Density-functional theory</li>
+    </ul>
+
+    <h2>Selected publications</h2>
+
+    <ul>
+        <li>
+            Phys. Rev. B 110, 235407 (2024)
+        </li>
+
+        <li>
+            J. Phys.: Condens. Matter 37, 185002 (2025)
+        </li>
+    </ul>
+
+    <h2>Curriculum vitae</h2>
+
+    <p>
+        <a href="CV.pdf">Download my CV (PDF)</a>
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+        Email: your.email@example.com
+    </p>
+
+</body>
+
+</html>
