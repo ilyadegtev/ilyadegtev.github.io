@@ -1,0 +1,95 @@
+body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #fafafa;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 35px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    margin-right: 18px;
+    text-decoration: none;
+    color: #004080;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
