@@ -31,7 +31,9 @@ p {
 }
 
 .photo {
-    width: 300px
+    width: 300px !important;
+    height: 300px !important;
+    border: 5px solid red !important;
 }
 
 .profile-info {
