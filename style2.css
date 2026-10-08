@@ -164,56 +164,58 @@ footer {
 
 
 /* =========================
-   Phone layout
-   ========================= */
+Phone layout
+========================= */
 
 @media (max-width: 600px) {
 
-    body {
-        margin: 20px auto;
-        padding: 15px;
-    }
+body {
+    margin: 20px auto;
+    padding: 15px;
+}
 
-    .top {
-        align-items: baseline;
-        margin-bottom: 30px;
-    }
+.top {
+    align-items: baseline;
+    margin-bottom: 30px;
+}
 
-    .top h1 {
-        font-size: 26px;
-    }
+.top h1 {
+    font-size: 26px;
+}
 
-    .top nav {
-        gap: 15px;
-    }
+.top nav {
+    gap: 15px;
+}
 
-    .top nav a {
-        font-size: 16px;
-    }
+.top nav a {
+    font-size: 16px;
+}
 
+/* Let the text wrap around the photo */
 
-    /* Put photo above the text */
+.profile {
+    display: block;
+    margin-bottom: 20px;
+}
 
-    .profile {
-        display: block;
-    }
+.photo {
+    float: left;
+    display: block;
+    width: 130px !important;
+    height: 130px !important;
+    object-fit: cover;
+    margin: 0 15px 10px 0;
+}
 
-    .photo {
-        display: block;
-        width: 150px !important;
-        height: 150px !important;
-        margin: 0 0 20px 0;
-    }
+.about {
+    margin-top: 0;
+}
 
-    .about {
-        margin-top: 0;
-    }
+/* Make CV table fit better on small screens */
 
+td:first-child {
+    width: auto;
+    white-space: nowrap;
+}
 
-    /* Make CV table fit better on small screens */
-
-    td:first-child {
-        width: auto;
-        white-space: nowrap;
-    }
 }
