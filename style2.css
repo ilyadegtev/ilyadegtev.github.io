@@ -66,6 +66,74 @@ p {
 }
 
 
+body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #fafafa;
+}
+
+/* Main heading */
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Section headings */
+
+h2 {
+    margin-top: 35px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   Top header
+   ========================= */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+
+/* Navigation */
+
+.top nav {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.top nav a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #004080;
+}
+
+.top nav a:hover {
+    text-decoration: underline;
+}
+
+
 /* =========================
    Photo + About me
    ========================= */
@@ -88,6 +156,70 @@ p {
     margin-top: -20px;
 }
 
+
+/* =========================
+   Links
+   ========================= */
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    margin-right: 18px;
+    text-decoration: none;
+    color: #004080;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   Lists
+   ========================= */
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   Short CV table
+   ========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px 10px 10px 0;
+}
+
+td:first-child {
+    width: 130px;
+    white-space: nowrap;
+}
+
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
 
 /* =========================
    Links
